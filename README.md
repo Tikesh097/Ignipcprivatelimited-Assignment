@@ -100,6 +100,6 @@ Use `socket` to handle real-time updates if your backend supports them.
 ## 👨‍💻 Author
 
 **Your Name**  
-Contact: [aswaletinku@gnail.com]
+Contact: [aswaletinku@gmail.com]
 
 Happy coding! 🚀
