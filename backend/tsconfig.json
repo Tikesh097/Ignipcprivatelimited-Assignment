@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "target": "ES2020",                   // Output modern JS (ES2020)
+    "module": "commonjs",                 // Use CommonJS modules (Node.js)
+    "outDir": "./dist",                   // Output compiled JS here
+    "rootDir": "./src",                   // Source files live here
+    "strict": true,                       // Enable all strict type checks
+    "esModuleInterop": true,              // Allow default imports from CommonJS
+    "forceConsistentCasingInFileNames": true, // Avoid filename case mismatches
+    "skipLibCheck": true                  // Skip type checking .d.ts files
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"]                 // Only compile files inside src
 }
